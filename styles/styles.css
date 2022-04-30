@@ -1,0 +1,75 @@
+body{
+    width: 1600px;
+}
+/* герой */
+.hero{
+    background-color: #2F303A;
+    height: 600px;
+}
+.hero-header{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding: 200px 452px 280px 452;
+}
+.hero-button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.button-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-left: 32px;
+
+}
+/* особенности */
+.peculiarities-head{
+    display: none;
+}
+.peculiarities-list{
+    
+}
+.peculiarities-header{
+    
+    
+  
+
+}
+.peculiarities-item{
+   
+   
+
+}
+.peculiarities-text{
+    
+}
