@@ -1,6 +1,6 @@
 body{
     width: 1600px;
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 a{
     text-decoration: none;
@@ -216,6 +216,9 @@ padding-left: 30px;
     
 }
 /* Чем мы занимаемся */
+.doing{
+  
+}
 .header-doing{
     margin-top: 94px;
     margin-left: 620px;
@@ -241,6 +244,7 @@ padding-left: 30px;
     margin-left: 160px;
     margin-top: 50px;
     margin-right: 215px;
+    margin-bottom: 94px;
 }
 .list-doing-item{
     padding-left: 30px;
@@ -270,7 +274,7 @@ padding-left: 30px;
     flex-direction: row;
     background-color: #F5F4FA;;
     width: 1380px;
-    padding-left: 215px;
+    padding-left: 200px;
 }
 .team-list-li{
     background-color: #FFFFFF;
