@@ -5,7 +5,15 @@ body{
 a{
     text-decoration: none;
 }
-/* шапка */
+li{
+    list-style: none;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+                                               /* шапка */
 .header{
     display: flex;
     flex-direction: row;
@@ -35,6 +43,11 @@ a{
     
     color: #2196F3;
     
+}
+.link-logo-footer{
+   padding-top: 50px;
+    
+
 }
 .nav-list{
     display: flex;
@@ -115,7 +128,7 @@ a{
     color: #757575;
     
 }
-/* герой */
+                                                      /* герой */
 .hero{
     background-color: #2F303A;
     height: 600px;
@@ -151,6 +164,10 @@ a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-top: 30px;
+    cursor: pointer;
+}
+.hero-button:hover{
+    background-color:#90ee97;
 }
 .button-text{
     font-family: 'Roboto';
@@ -166,7 +183,7 @@ a{
     padding-left: 32px;
 
 }
-/* особенности */
+                                             /* особенности */
 .peculiarities-head{
     display: none;
 }
@@ -174,8 +191,9 @@ a{
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-left: 200px;
+    margin-left: 165px;
     margin-top: 94px;
+    
 }
 .peculiarities-header{
     
@@ -195,7 +213,7 @@ a{
 }
 .peculiarities-item{
     
-padding-left: 30px;
+padding-left: 40px;
    
    
 
@@ -203,11 +221,11 @@ padding-left: 30px;
 .peculiarities-text{
     width: 270px;
     height: 75px;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 1.7;    
     letter-spacing: 0.03em;
     color: #757575;
     margin-top:  10px;
@@ -215,13 +233,14 @@ padding-left: 30px;
     
     
 }
-/* Чем мы занимаемся */
+                                             * Чем мы занимаемся */
 .doing{
+    
   
 }
 .header-doing{
     margin-top: 94px;
-    margin-left: 620px;
+    margin-left: 630px;   
     width: 376px;
     height: 42px;
     left: 612px;
@@ -241,7 +260,7 @@ padding-left: 30px;
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-left: 160px;
+    margin-left: 165px;
     margin-top: 50px;
     margin-right: 215px;
     margin-bottom: 94px;
@@ -249,7 +268,7 @@ padding-left: 30px;
 .list-doing-item{
     padding-left: 30px;
 }
-/* наша команда */
+                                        /* наша команда */
 .team{
     background: #F5F4FA;
     width: 1600px;
@@ -279,7 +298,7 @@ padding-left: 30px;
 .team-list-li{
     background-color: #FFFFFF;
     width: 270px;
-  margin-left: 30px;
+    margin-left: 30px;
     box-shadow:50px inset red;
 }
 .team-li-name{
@@ -302,41 +321,37 @@ padding-left: 30px;
 
 }
 .team-li-proff{
-    width: 147px;
-    height: 19px;
-    left: 577px;
-    top: 1954px;
+    
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-    
     text-align: center;
     letter-spacing: 0.03em;
     
     color: #757575;
-    padding-left: 62px;
+    
     padding-bottom: 30px;
+    
 
 }
-/* футер */
+                                                /* футер */
 .footer{
     background-color: #2F303A;
     height: 252px;
+    padding: 0;
 }
 .text-studio-footer{
-    color: #FFFFFF;
+    color: #F5F4FA;
 }
-.footer-logo{
-    padding-top:  60px;
+}
+
 }
 .adress-list-footer{
-    padding-left: 215px;
-    list-style: none;
-    margin-top: 20px;
+    padding-left: 100px;
+    
     
 }
 .adress-list-li{
@@ -353,7 +368,7 @@ padding-left: 30px;
     
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;
+    color:#FFFFFF;
 
 }
 .footer-contacts{
@@ -368,4 +383,8 @@ padding-left: 30px;
     
     color: rgba(255, 255, 255, 0.6);
 
+
+}
+.address{
+    margin-left: 177px;
 }
