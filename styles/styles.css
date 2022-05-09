@@ -37,12 +37,8 @@ li{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
-    
     letter-spacing: 0.03em;
-    
     color: #2196F3;
-    
 }
 .link-logo-footer{
    padding-top: 50px;
@@ -56,14 +52,17 @@ li{
     list-style: none;
     margin-top: 32px;
     margin-bottom: 32px;
-    
-    
-
 }
+
+
 .nav-list-item{
     margin-left: 50px;
     
+
+    
 }
+
+
 .nav-list-text{
     
     width: 77px;
@@ -77,11 +76,12 @@ li{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: rgba(33, 33, 33, 1)
 }
-.nav-list-text:hover{
+.nav-list-text:hover,
+.nav-list-text:focus{
     color: #2196F3;
-}
+}       
 .adress-list{
     display: flex;
     flex-direction: row;
@@ -165,9 +165,7 @@ li{
     margin-top: 30px;
     cursor: pointer;
 }
-.hero-button:hover{
-    background-color:#90ee97;
-}
+
 .button-text{
     font-family: 'Roboto';
     font-style: normal;
@@ -183,7 +181,7 @@ li{
 
 }
                                              /* особенности */
-.peculiarities-head{
+.peculiarities-header{
     display: none;
 }
 .peculiarities-list{
@@ -194,7 +192,7 @@ li{
     margin-top: 94px;
     
 }
-.peculiarities-header{
+.peculiarities-title{
     
     width: 270px;
     padding-bottom: 0%;
@@ -236,7 +234,7 @@ padding-left: 40px;
 .doing{
     
 }
-.header-doing{
+.title-doing{
     margin-top: 94px;
     margin-left: 630px;   
     width: 376px;
@@ -272,7 +270,7 @@ padding-left: 40px;
     width: 1600px;
     height: 648px;
 }
-.team-header{
+.title-team{
    
     text-align: center;
     color: #212121;
